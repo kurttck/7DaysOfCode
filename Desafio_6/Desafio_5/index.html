@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Desafio 6</title>
+  </head>
+  <body>
+    <main>
+      <h1>Desafio 6 - Agregar y Eliminar productos a una Lista</h1>
+      <section class="questions">
+        <h2>Crea tu lista de compras</h2>
+        <div>
+          <div class="inputText">
+            <input
+              type="text"
+              value=""
+              placeholder="producto"
+              id="inputProduct"
+            />
+            <a id="btnAgree">Agregar Producto</a>
+            <a id="btnShow">Mostrar Lista</a>
+            <a id="btnDelete">Eliminar Un Producto</a>
+          </div>
+          <div class="checkBox">
+            <input type="radio" name="tipo" id="1" value="frutas" />Frutas
+            <input type="radio" name="tipo" id="2" value="lacteos" />Lacteos
+            <input
+              type="radio"
+              name="tipo"
+              id="3"
+              value="congelados"
+            />Congelados
+            <input type="radio" name="tipo" id="4" value="dulces" />Dulces
+          </div>
+        </div>
+      </section>
+      <div id="lista"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
